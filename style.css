@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fffafc;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+  }
+  
+  .ticket {
+    background: white;
+    padding: 2em;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    text-align: center;
+    max-width: 500px;
+  }
+  
+  .ticket h1 {
+    font-size: 1.8em;
+    color: #d63384;
+    margin-bottom: 0.2em;
+  }
+  
+  .ticket h2 {
+    font-size: 1.3em;
+    margin: 1em 0 0.5em;
+    color: #343a40;
+  }
+  
+  .ticket p {
+    font-size: 1.05em;
+    margin: 0.5em 0;
+  }
+  
+  .qr-section {
+    margin-top: 1.5em;
+  }
+  
+  .qr-section img {
+    width: 220px;
+    height: 220px;
+  }
+  
+  .qr-section p {
+    margin-top: 0.5em;
+    font-weight: bold;
+  }
+  
